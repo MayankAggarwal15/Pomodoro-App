@@ -100,7 +100,7 @@ window.config(padx=100, pady=50, bg="cyan")
 
 canvas = Canvas(width=300, height=300, bg="cyan", highlightthickness=0)
 tomato_img = PhotoImage(
-    file="C:/Users/Mayank Aggarwal/Software Development/MAYANK/PYTHON PROGRAMMING/GRAPHICS/POMODORO APP/tomato.png")
+    file="tomato.png")
 canvas.create_image(150, 150, image=tomato_img)
 
 # In functions related to canvas , we put coordinates according to width and height of canvas , not on the basis of coordinates of screen
