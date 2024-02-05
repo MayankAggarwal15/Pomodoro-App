@@ -51,9 +51,9 @@ def start_timer():
 
     count = 0
 
-    work_sec = work_min * 60
-    short_break_sec = short_break_min * 60
-    long_break_sec = long_break_min * 60
+    work_sec = int(work_min * 60)
+    short_break_sec = int(short_break_min * 60)
+    long_break_sec = int(long_break_min * 60)
 
     window.state("normal")
     window.attributes('-topmost', True)
